@@ -1,0 +1,31 @@
+@import "style_scss";
+@import "plus-minus/plus-minus";
+@import "goods-all-cost/popup-goods-all-cost";
+
+.popup-goods-backet {
+    @extend %flex-direct-column;
+
+    width: 621px;
+    min-height: 60px;
+
+    @include border-width-style-color(2px, #f3e5da);   
+}
+
+.popup-goods-selected {
+    @extend %align-item-center;
+    @include width-height(100%, 34px);
+
+    margin: 10px 14px 12px 20px;
+}
+
+.popup-goods-name {
+    width: 270px;
+}
+
+.coffee-selected {
+    font-weight: normal;
+}  
+
+.popup-goods-cost {
+    width: 68px;
+}  

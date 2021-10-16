@@ -1,0 +1,9 @@
+@import "style_scss";
+@import "services/services";
+
+.offers {
+    @include width-height(100%, 305px);
+
+    background-color: rgba(255, 255, 255, 0.2);
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+}

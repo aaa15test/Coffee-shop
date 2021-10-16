@@ -1,0 +1,16 @@
+@import "style_scss";
+@import "__top-menu/main__top-menu";
+@import "__header/main__header";
+@import "__offers/main__offers";
+
+.main-screen {
+    @include width-height(100%, 955px);
+
+    background-color: black;
+    background-repeat: no-repeat; 
+   // background-size: cover;
+    background-position: center;
+    height: 955px;
+
+    z-index: 182;
+}

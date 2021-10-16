@@ -1,0 +1,31 @@
+@import "style_scss";
+
+.coffee-inform_item {
+    font-size: 16px;
+    font-family: $font-pt-sans-narrow;
+
+    line-height: 20px;
+
+    padding-bottom: 5px;
+}
+
+.coffee-inform_item_sort-berry {
+    line-height: 18px;
+}
+
+.sort-berry_name {
+    font-family: $font-pt-sans-narrow;
+    color: rgb(90, 54, 35);
+}
+
+.sort-berry_circles {
+    @extend %just-cont-space-betw;
+    @extend %align-item-center; 
+
+    height: 16px;
+}
+
+.fa-circle {
+    @include width-height(12px, 9px);
+    font-size: 9px;
+}

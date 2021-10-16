@@ -1,0 +1,31 @@
+@import "style_scss";
+
+.phone {
+    @extend %just-cont-space-betw;
+
+    width: 25.8%;
+
+    z-index: 244;
+    color: white;
+
+    margin-top: 12px;
+}
+
+.phone-number {
+    @include font-size-text-align-left(20px);
+    font-family: $font-pt-sans;
+    @extend %font-weig-bold-text-align-left;
+    height: 19px;
+
+    cursor: pointer;
+}
+
+.phone-reverse {
+    @include font-size-text-align-left(16px);
+    font-family: $font-pt-sans-narrow;
+    text-decoration: underline;
+
+    height: 15px;
+
+    cursor: pointer;
+}

@@ -1,0 +1,434 @@
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+    
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow+Bold" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Bold" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption+Bold" rel="stylesheet">-->
+    <link href="http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.eot">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body style="background-color: #fff">
+<section class="main-screen" style="background-image: url(image/background.png)">
+    <section class="main__top-menu">
+        <section class="center-justification"> 
+            <section class="top-menu_content">
+                <div class="phone">
+                    <div class="phone-number">7(978)787-78-89</div>
+                    <div class="phone-reverse" href="javascript:void(0)">не смогли дозвониться?</div>
+                </div>
+
+                <div class="popup-wrapper">
+                    <input type="checkbox" class="popup-checkbox" id="popupCheckboxOne">
+                    <div class="popup" id="popup">
+                        <div class="popup-content">
+                            <div class="popup-header">
+                                <div class="popup-center"> 
+                                    <div class="popup-head">
+                                        <div class="popup-name">
+                                            <img class="speciality_title-img" src="image/decor.png">
+                                            <p class="speciality_title-name">Корзина</p>
+                                        </div>
+                                        <label for="popupCheckboxOne" class="popup-closer-sign">&#215;</label>
+                                    </div>    
+                                </div>
+                            </div>
+                            <hr color="#f3e5da">
+                            <div class="popup-my-backet">
+                                <div class="popup-center">
+                                    <div class="popup-goods" id="popup_goods">
+                                        <div class="popup-goods-header">
+                                            <p class="popup-goods-header-item popup-goods-header-item-name">Наименование</p>
+                                            <p class="popup-goods-header-item">Цена</p>
+                                            <p class="popup-goods-header-item popup-goods-header-item-number">Количество</p>
+                                            <p class="popup-goods-header-item">Всего</p>
+                                        </div>
+                                        <div class="popup-goods-backet" id="popup_goods_backet">
+                                            
+                                        </div>
+                                        <div class="total">
+                                            <i class="fas fa-sync-alt"></i>
+                                            <p class="popup-goods-header-item total-title">Итого к оплате</p>
+                                            <div class="total-payment">
+                                                <p><span id="total-payment-cost">0</span> руб.</p>
+                                            </div>    
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+                      </div>
+                    </div>
+                </div>
+
+                <label for="popupCheckboxOne" class="popup-shower">
+                 <div class="basket" id="basket">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p class="basket-empty order-text" id="basket-empty">В корзине пусто</p>
+                    <div class="order" id="order">                  
+                        <p class="circle" id="circle">1</p>
+                        <div class="order-text">товар, на сумму: </div>
+                        <div class="bill" id="bill">1800</div>
+                        <div class="order-text"> руб.</div>
+                    </div>
+                </div>
+                </label>
+
+            </section>
+        </section>
+    </section>
+    <section class="main__header">
+        <section class="center-justification"> 
+            <image src="image/logo.png" class="logo">
+            <div class="title-slogan">
+                <p class="title">Свежеобжаренный кофе</p>  
+                <p class="slogan">Почуствовав однажды аромат и глубину вкуса нашего кофе, вы уже никогда не вернетесь к кофе с магазинной полки!</p>
+            </div>
+            <div class="buttons-select-subscribe">
+                <button class="but-select-coffee">Выбери кофе</button>
+                <button class="but-select-coffee but-subscribe">Оформи подписку</button>
+            </div>
+        </section>
+    </section>
+    
+    <section class="offers">
+    <section class="center-justification"> 
+        <section class="services">
+            <div class="service">
+                <div class="service__img-position">
+                    <img class="service__img" src="image/fresh.png">
+                </div>
+                <div class="service__text">
+                    <p class="service__text-offer">Мы продаем только</p>
+                    <p class="service__text-offer service__text-offer_yellow">свежеобжаренный кофе</p>
+                </div>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="service">
+                <div class="service__img-position">
+                    <img class="service__img" src="image/best_coffee.png">
+                </div>
+                <div class="service__text">
+                    <p class="service__text-offer">У вас всегда будет запас</p>
+                    <p class="service__text-offer service__text-offer_yellow">отличного кофе</p>
+                </div>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="service">
+                <div class="service__img-position">
+                    <img class="service__img" src="image/best_corns.png">
+                </div>
+                <div class="service__text">
+                    <p class="service__text-offer">Мы отбираем</p>
+                    <p class="service__text-offer service__text-offer_yellow">лучшие зерна мира</p>
+                </div>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="service">
+                <div class="service__img-position">
+                    <img class="service__img" src="image/quality.png">
+                </div>
+                <div class="service__text">
+                    <p class="service__text-offer">Возврат денег в течении 14 дн.</p>
+                    <p class="service__text-offer service__text-offer_yellow">гарантируем качество</p>
+                </div>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="service">
+                <div class="service__img-position">
+                    <img class="service__img" src="image/delivery.png">
+                </div>
+                <div class="service__text">
+                    <p class="service__text-offer">Быстрый заказ и</p>
+                    <p class="service__text-offer service__text-offer_yellow">бесплатная доставка</p>
+                </div>
+            </div>
+
+        </section>
+    </section>
+    </section>
+
+</section>
+
+<section class="center-max">
+    <section class="specialities">
+        <div class="speciality_title">
+            <img class="speciality_title-img" src="image/decor.png">
+            <p class="speciality_title-name">Только лучший кофе для вас</p>
+        </div>
+        <section class="coffee-types">
+            <section class="coffee">
+                <p class="coffee-name">Гватемала Антигуа</p>
+                <div class="coffee-box">
+                    <div class="coffee-photo">
+                        <img class="coffee-photo_img" src="image/coffee-gvatemala.png">
+                    </div>
+                    <div class="coffee-inform">
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Сорт зерна</p>
+                            <p class="sort-berry_name">Арабика</p>
+                        </div>
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Обжарка</p>
+                            <p class="sort-berry_name">Medium</p>
+                        </div>
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Кислинка</p>
+                            <p class="sort-berry_circles sort-berry_name">
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                            </p>
+                        </div>
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Горчинка</p>
+                            <p class="sort-berry_circles sort-berry_name">
+                                <i class="fas fa-circle"></i>
+                                <i class="fas fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                            </p>
+                        </div>
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Насыщенность</p>
+                            <p class="sort-berry_circles sort-berry_name">
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                            </p>
+                        </div>
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Крепость</p>
+                            <p class="sort-berry_circles sort-berry_name">
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="prepacking-backet">
+                    <div class="prepacking">
+                        <input type="button" class="weight gramm1 active" id="weight1" value="250 гр.">
+                        <input type="button" class="weight gramm1" id="weight2" value="450 гр."> 
+                    </div>
+                    <div class="cost" id="cost1"><span>380</span> руб.</div>
+                    <button class="backet-prepack">
+                        <a href="javascript:window.scrollTo(0, 0);" style="text-decoration: none">
+                            <p class="to-backet" onclick="add_backet('0')">В корзину</p>
+                        </a>
+                    </button>
+                </div>
+
+            </section>
+            <section class="coffee">
+                <p class="coffee-name">Эфиопия Йоргачеф</p>
+                <div class="coffee-box">
+                    <div class="coffee-photo">
+                        <img class="coffee-photo_img" src="image/coffee-ethiopia.png">
+                    </div>
+                    <div class="coffee-inform">
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Сорт зерна</p>
+                            <p class="sort-berry_name">Арабика</p>
+                    </div>
+                    <div class="coffee-inform_item">
+                        <p class="coffee-inform_item_sort-berry">Обжарка</p>
+                        <p class="sort-berry_name">Medium</p>
+                    </div>
+                    <div class="coffee-inform_item">
+                        <p class="coffee-inform_item_sort-berry">Кислинка</p>
+                        <p class="sort-berry_circles sort-berry_name">
+                                <i class="fas fa-circle"></i>
+                                <i class="fas fa-circle"></i>
+                                <i class="fas fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                        </p>
+                    </div>
+                    <div class="coffee-inform_item">
+                        <p class="coffee-inform_item_sort-berry">Горчинка</p>
+                        <p class="sort-berry_circles sort-berry_name">
+                                <i class="fas fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                        </p>
+                    </div>
+                    <div class="coffee-inform_item">
+                        <p class="coffee-inform_item_sort-berry">Насыщенность</p>
+                        <p class="sort-berry_circles sort-berry_name">
+                                <i class="fas fa-circle"></i>
+                                <i class="fas fa-circle"></i>
+                                <i class="fas fa-circle"></i>
+                                <i class="fas fa-circle"></i>
+                                <i class="fas fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                        </p>
+                    </div>
+                    <div class="coffee-inform_item">
+                        <p class="coffee-inform_item_sort-berry">Крепость</p>
+                        <p class="sort-berry_circles sort-berry_name">
+                                <i class="fas fa-circle"></i>
+                                <i class="fas fa-circle"></i>
+                                <i class="fas fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="prepacking-backet">
+                    <div class="prepacking">
+                        <input type="button" class="weight gramm2 active" id="weight11" value="250 гр.">
+                        <input type="button" class="weight gramm2" id="weight22" value="450 гр."> 
+                    </div>
+                    <div class="cost" id="cost2"><span>445</span> руб.</div>
+                    <button class="backet-prepack">
+                        <a href="javascript:window.scrollTo(0, 0);" style="text-decoration: none">
+                            <p class="to-backet" onclick="add_backet('1')">В корзину</p>
+                        </a>
+                    </button>
+                </div>
+            </section>
+            <section class="coffee">
+                <p class="coffee-name">Колумбия Супремо</p>
+                <div class="coffee-box">
+                    <div class="coffee-photo">
+                        <img class="coffee-photo_img" src="image/coffee-colombia.png">
+                    </div>
+                    <div class="coffee-inform">
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Сорт зерна</p>
+                            <p class="sort-berry_name">Арабика</p>
+                        </div>
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Обжарка</p>
+                            <p class="sort-berry_name">Medium</p>
+                        </div>
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Кислинка</p>
+                            <p class="sort-berry_circles sort-berry_name">
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                            </p>
+                        </div>
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Горчинка</p>
+                            <p class="sort-berry_circles sort-berry_name">
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                            </p>
+                        </div>
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Насыщенность</p>
+                            <p class="sort-berry_circles sort-berry_name">
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                            </p>
+                        </div>
+                        <div class="coffee-inform_item">
+                            <p class="coffee-inform_item_sort-berry">Крепость</p>
+                            <p class="sort-berry_circles sort-berry_name">
+                                    <i class="fas fa-circle"></i>
+                                    <i class="fas fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                                    <i class="far fa-circle"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="prepacking-backet">
+                    <div class="prepacking">
+                        <input type="button" class="weight gramm3 active" id="weight111" value="250 гр.">
+                        <input type="button" class="weight gramm3" id="weight222" value="450 гр."> 
+                    </div>
+                    <div class="cost" id="cost3"><span>275</span> руб.</div>
+                    <button class="backet-prepack">
+                        <a href="javascript:window.scrollTo(0, 0);" style="text-decoration: none">
+                            <p class="to-backet" onclick="add_backet('2')">В корзину</p>
+                        </a>
+                    </button>
+                </div>
+            </section>
+        </section>
+    </section>
+
+</section>
+
+</body>
+
+</html>

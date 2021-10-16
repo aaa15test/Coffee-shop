@@ -1,0 +1,20 @@
+@import "style_scss";
+@import "coffee-inform/coffee-inform";
+
+.coffee-box {
+    @extend %flex-direct-row;
+    @include width-height(375px, 254px);
+
+    margin-top: 12px;
+
+    @include border-width-style-color(3px, rgb(243, 229, 218));
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.coffee-photo {
+    @include width-height(234px, 254px);
+}
+
+.coffee-photo_img {
+
+}

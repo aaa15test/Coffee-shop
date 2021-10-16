@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.prepacking {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.prepacking {
+  display: flex;
+  align-items: center;
+}
+
+.gramm1, .gramm2, .gramm3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.prepacking {
+  border: 2px solid #f3e5da;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 137px;
+  height: 32px;
+}
+
+.weight {
+  width: 65px;
+  height: 28px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.weight:active, .weight:focus {
+  outline: none;
+  border: none;
+  transition: background 0s;
+}
+
+.gramm1, .gramm2, .gramm3 {
+  text-align: center;
+  font-size: 14px;
+  font-family: "PT Sans Caption", sans-serif;
+  color: #5a3623;
+}
+
+.active {
+  background-color: #f3e5da;
+}

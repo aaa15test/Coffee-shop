@@ -1,0 +1,9 @@
+@import "style_scss";
+@import "coffee/coffee";
+
+.coffee-types {
+    @extend %just-cont-space-betw;
+
+    margin-top: 22px;
+}
+

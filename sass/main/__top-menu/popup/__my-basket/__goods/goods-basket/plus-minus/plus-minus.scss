@@ -1,0 +1,42 @@
+@import "style_scss";
+
+.popup-goods-number {
+    @extend %just-cont-space-betw;
+    width: 140px;
+} 
+
+.plus-minus {
+    @include border-width-style-color(2px, rgb(232, 215, 197));
+    @include border-radius(50%);
+    @include width-height(30px, 30px);
+    cursor: pointer;
+}
+
+.plus-minus:hove {
+    @include border-width-style-color(2px, rgb(232, 215, 197));
+    color: #fff;
+}
+
+.fa-plus, .fa-minus {
+    @include font-size-text-align-center(16px);
+    color: rgb(232, 215, 197);
+
+    margin: 7px 0 0 8px;
+}
+
+.fa-plus:hove, .fa-minus:hove {
+    color: #fff;
+}
+
+.number-coffee {
+    @include width-height(60px, 33px);
+
+    @include border-width-style-color(2px, rgb(232, 215, 197));
+    @include border-radius(100px);
+
+    text-align: center;
+    font-weight: bold;
+}  
+.number-coffee:focus, .number-coffee:active {
+    outline: none;
+}

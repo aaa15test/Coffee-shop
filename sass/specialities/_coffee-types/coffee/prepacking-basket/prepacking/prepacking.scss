@@ -1,0 +1,40 @@
+@import "style_scss";
+
+.prepacking {
+    @extend %just-cont-space-around;
+    @extend %align-item-center;
+    
+    @include border-width-style-color(2px, rgb(243, 229, 218));
+    @include border-radius(50px);
+    background-color: rgba(255, 255, 255, 0);
+    @include width-height(137px, 32px);
+}
+
+.weight {
+    @include width-height(65px, 28px);
+
+    @include border-radius(50px);
+    background-color: rgb(255, 255, 255);
+    border: none;
+
+    cursor: pointer;
+}
+
+.weight:active, .weight:focus {
+    outline: none;
+    border: none;
+
+    //background: rgb(243, 229, 218);
+    transition: background 0s;
+}
+
+.gramm1, .gramm2, .gramm3 {
+    @include font-size-text-align-center(14px);
+    font-family: $font-pt-sans-caption;
+    color: rgb(90, 54, 35);
+    @extend %font-weig-bold-text-align-cent;
+}
+
+.active {
+    background-color: rgb(243, 229, 218);
+  }

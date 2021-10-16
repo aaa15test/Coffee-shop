@@ -1,0 +1,27 @@
+@import "style_scss";
+
+.popup-goods-all-cost {
+    color: red;
+
+    margin-left: 20px;
+}
+
+.delete-goods {
+    margin-left: 7px;
+}
+
+.fa-times {
+    font-size: 14px;
+    color: rgb(232, 215, 197);
+    @include width-height(10px, 11px);
+}  
+
+.fa-times:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.popup-checkbox:checked + .popup {
+    opacity: 1;
+    display: block;
+}

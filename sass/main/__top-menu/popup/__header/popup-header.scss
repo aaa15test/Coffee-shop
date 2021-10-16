@@ -1,0 +1,38 @@
+@import "style_scss";
+
+.popup-header {
+    display: flex;
+    @include width-height(100%, 100px);
+}
+
+.popup-head {
+    @extend %just-cont-space-betw;
+
+    margin-top: 43px;
+}
+
+.popup-name {
+    display: flex;
+
+    height: 30px;
+}
+  
+.popup-shower {
+    cursor: pointer;
+}
+  
+.popup-closer-sign {
+    color: #f3e5da;
+    @include font-size-text-align-center(26px);
+    @include border-width-style-color(2px, #f3e5da);
+    display: block;
+    @include width-height(20px, 20px);
+    line-height: 20px;
+    @include border-radius(50%);
+    cursor: pointer;
+}
+
+.popup-closer-sign:hover {
+    color: rgb(0, 0, 0);
+    @include border-width-style-color(2px, #000); 
+}

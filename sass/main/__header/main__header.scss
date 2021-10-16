@@ -1,0 +1,77 @@
+@import "style_scss";
+
+.main__header {
+    height: 551px;
+}
+
+.logo {
+    @extend %align-self-center;
+    @include width-height(249px, 141px);
+
+    margin: 50px auto auto auto;
+}
+
+.title-slogan {
+    @include width-height(895px, 110px);
+
+    margin: 75px auto auto auto;
+
+    color: rgb(255, 255, 255);
+
+    font-family: $font-pt-sans;
+    text-align: center;
+}
+
+.title {
+    @include font-size-font-weight-bold(72px); 
+    text-transform: uppercase;   
+}
+
+.slogan {
+    font-family: $font-pt-sans-narrow;
+    font-size: 20px;
+
+    margin-top: 17px;
+}  
+
+.buttons-select-subscribe {
+    @extend %just-cont-space-betw;
+    @include width-height(573px, 65px);
+
+    margin: auto;
+    margin-top: 90px;
+}
+
+.but-select-coffee {
+    @include font-size-text-align-center(24px);
+    font-family: $font-pt-sans;
+    color: rgb(237, 217, 117);
+    @extend %font-weig-bold-text-align-cent;
+
+    @include border-width-style-color(2px, rgb(237, 217, 117));
+    @include border-radius(50px);
+    background-color: rgba(255, 255, 255, 0);
+    @include width-height(260px, 100%);
+
+    padding-bottom: 7px;
+
+    cursor: pointer;
+}   
+
+.but-select-coffee:active, .but-select-coffee:focus {
+    outline: none;
+}
+
+.but-select-coffee:hover {
+    color: rgb(255, 255, 255);
+
+    border: none;
+
+    background-image: -moz-linear-gradient( 90deg, rgb(69,152,45) 0%, rgb(86,193,55) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(69,152,45) 0%, rgb(86,193,55) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(69,152,45) 0%, rgb(86,193,55) 100%);
+}
+  
+.but-subscribe {
+    border-style: dotted;
+}

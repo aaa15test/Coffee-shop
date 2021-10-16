@@ -1,0 +1,23 @@
+@import "style_scss";
+
+.popup-goods-header {
+    @extend %align-item-center;
+    @include width-height(100%, 35px);
+}
+
+.popup-goods-header-item {
+    width: 50px;
+
+    @include font-size-text-align-center(16px);
+    font-family: $font-pt-sans-narrow;
+    color: rgb(90, 54, 35);
+    @extend %font-weig-bold-text-align-cent;
+}
+
+.popup-goods-header-item-name {
+    width: 290px;
+}
+
+.popup-goods-header-item-number {
+    width: 180px;
+}

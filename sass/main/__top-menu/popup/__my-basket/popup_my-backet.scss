@@ -1,0 +1,10 @@
+@import "style_scss";
+@import "__goods/popup__goods";
+
+.popup-my-backet {
+    display: flex;
+
+    min-height: 175px;
+
+    margin-top: 30px;
+}

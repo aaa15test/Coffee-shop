@@ -1,0 +1,40 @@
+@import "style_scss";
+@import "coffee-box/coffee-box";
+@import "prepacking-basket/prepacking-basket";
+
+.coffee {
+    @include width-height(380px, 340px);
+}
+
+.coffee-name {
+    @include font-size-text-align-center(22px);
+    font-family: $font-pt-sans;
+    color: rgb(90, 54, 35);
+    @extend %font-weig-bold-text-align-cent;
+    font-weight: bold;
+}
+
+.total {
+    @extend %just-cont-flex-end;
+
+    width: 100%;
+
+    margin-top: 25px;
+}
+
+.fa-sync-alt {
+    @include width-height(33px, 18px);
+
+    color: #5a3623;
+}
+
+.total-title {
+    width: 100px;
+}
+  
+.total-payment {
+    width: 140px;
+
+    color: red;
+    @extend %font-weig-bold-text-align-cent;
+}

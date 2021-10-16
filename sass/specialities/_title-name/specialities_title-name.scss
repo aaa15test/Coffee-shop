@@ -1,0 +1,22 @@
+@import "style_scss";
+
+.speciality_title {
+    @extend %just-cont-center;
+
+   // width: 435px;
+    height: 30px;
+
+    margin-top: 43px;
+}
+
+.speciality_title-img {
+    @extend %align-self-flex-end;
+    @include width-height(28px, 23px);
+    padding-right: 5px;
+}
+
+.speciality_title-name {
+    @include font-size-font-weight-bold(32px);
+    font-family: $font-pt-sans;
+    color: rgb(90, 54, 35);
+}

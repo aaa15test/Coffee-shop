@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.sort-berry_circles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort-berry_circles {
+  display: flex;
+  align-items: center;
+}
+
+.coffee-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.coffee-inform_item {
+  font-size: 16px;
+  font-family: "PT Sans Narrow";
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+
+.coffee-inform_item_sort-berry {
+  line-height: 18px;
+}
+
+.sort-berry_name {
+  font-family: "PT Sans Narrow";
+  color: #5a3623;
+}
+
+.sort-berry_circles {
+  height: 16px;
+}
+
+.fa-circle {
+  width: 12px;
+  height: 9px;
+  font-size: 9px;
+}
+
+.coffee-inform {
+  margin: 7px 0 0 10px;
+}
+
+.coffee-box {
+  width: 375px;
+  height: 254px;
+  margin-top: 12px;
+  border: 3px solid #f3e5da;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.coffee-photo {
+  width: 234px;
+  height: 254px;
+}

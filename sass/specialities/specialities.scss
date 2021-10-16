@@ -1,0 +1,13 @@
+@import "style_scss";
+@import "_title-name/specialities_title-name";
+@import "_coffee-types/specialities_coffee-types";
+
+.center-max {
+    @include width-height(1205px, 100%);
+
+    margin: auto;
+}
+
+.specialities {
+    height: 490px;
+}

@@ -1,0 +1,12 @@
+@import "style_scss";
+@import "goods-header/popup-goods-header";
+@import "goods-basket/popup-goods-basket";
+
+.popup-goods {
+    display: none;
+    min-height: 135px;
+
+    @include font-size-font-weight-bold(16px);
+    font-family: $font-pt-sans-narrow;
+    color: rgb(45, 35, 26);
+}

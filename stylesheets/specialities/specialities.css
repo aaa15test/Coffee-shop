@@ -1,0 +1,298 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.sort-berry_circles, .prepacking-backet, .coffee-types {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.speciality_title {
+  display: flex;
+  justify-content: center;
+}
+
+.prepacking {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.sort-berry_circles, .prepacking, .cost {
+  display: flex;
+  align-items: center;
+}
+
+.speciality_title-img {
+  display: flex;
+  align-self: flex-end;
+}
+
+.coffee-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.gramm1, .gramm2, .gramm3, .cost, .to-backet, .coffee-name, .total-payment {
+  font-weight: bold;
+  text-align: center;
+}
+
+.speciality_title {
+  height: 30px;
+  margin-top: 43px;
+}
+
+.speciality_title-img {
+  width: 28px;
+  height: 23px;
+  padding-right: 5px;
+}
+
+.speciality_title-name {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "PT Sans", sans-serif;
+  color: #5a3623;
+}
+
+.coffee-inform_item {
+  font-size: 16px;
+  font-family: "PT Sans Narrow";
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+
+.coffee-inform_item_sort-berry {
+  line-height: 18px;
+}
+
+.sort-berry_name {
+  font-family: "PT Sans Narrow";
+  color: #5a3623;
+}
+
+.sort-berry_circles {
+  height: 16px;
+}
+
+.fa-circle {
+  width: 12px;
+  height: 9px;
+  font-size: 9px;
+}
+
+.coffee-inform {
+  margin: 7px 0 0 10px;
+}
+
+.coffee-box {
+  width: 375px;
+  height: 254px;
+  margin-top: 12px;
+  border: 3px solid #f3e5da;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.coffee-photo {
+  width: 234px;
+  height: 254px;
+}
+
+.prepacking {
+  border: 2px solid #f3e5da;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 137px;
+  height: 32px;
+}
+
+.weight {
+  width: 65px;
+  height: 28px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.weight:active, .weight:focus {
+  outline: none;
+  border: none;
+  transition: background 0s;
+}
+
+.gramm1, .gramm2, .gramm3 {
+  text-align: center;
+  font-size: 14px;
+  font-family: "PT Sans Caption", sans-serif;
+  color: #5a3623;
+}
+
+.active {
+  background-color: #f3e5da;
+}
+
+.prepacking-backet {
+  width: 100%;
+  height: 35px;
+  margin-top: 15px;
+}
+
+.cost {
+  text-align: center;
+  font-size: 16px;
+  font-family: "PT Sans Caption", sans-serif;
+  color: #2d231a;
+}
+
+.backet-prepack {
+  border: 2px solid #edd975;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  background-color: white;
+  width: 140px;
+  cursor: pointer;
+  outline: none;
+}
+
+.backet-prepack:hover {
+  background-image: -moz-linear-gradient(90deg, #45982d 0%, #56c137 100%);
+  background-image: -webkit-linear-gradient(90deg, #45982d 0%, #56c137 100%);
+  background-image: -ms-linear-gradient(90deg, #45982d 0%, #56c137 100%);
+  border: none;
+  color: white;
+}
+
+.backet-prepack:active {
+  outline: none;
+  border: none;
+}
+
+.to-backet {
+  height: 33px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  color: #edd975;
+  line-height: 2;
+  border: none;
+  outline: none;
+}
+
+.to-backet:hover {
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.coffee {
+  width: 380px;
+  height: 340px;
+}
+
+.coffee-name {
+  text-align: center;
+  font-size: 22px;
+  font-family: "PT Sans", sans-serif;
+  color: #5a3623;
+  font-weight: bold;
+}
+
+.total {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.fa-sync-alt {
+  width: 33px;
+  height: 18px;
+  color: #5a3623;
+}
+
+.total-title {
+  width: 100px;
+}
+
+.total-payment {
+  width: 140px;
+  color: red;
+}
+
+.coffee-types {
+  margin-top: 22px;
+}
+
+.center-max {
+  width: 1205px;
+  height: 100%;
+  margin: auto;
+}
+
+.specialities {
+  height: 490px;
+}

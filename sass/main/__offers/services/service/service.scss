@@ -1,0 +1,42 @@
+@import "style_scss";
+
+.service {
+    @include width-height(220px, 185px);
+}
+
+.service__img-position {
+    display: flex;
+    align-items: center;
+    
+    height: 145px;
+}
+
+.service__img {
+    margin: auto auto auto auto;
+}
+
+.service__text {
+    @extend %align-cont-flex-end;
+    @extend %flex-direct-column;
+
+    height: 40px;
+
+    font-family: $font-pt-sans;
+    text-align: center;
+}
+
+.service__text-offer {
+    font-size: 16px;
+
+    color: rgb(255, 255, 255);
+    
+    white-space: nowrap;
+}
+
+.service__text-offer_yellow {
+    color: rgb(237, 217, 117);
+    font-family: $font-pt-sans-caption;
+    @include font-size-font-weight-bold(16px);
+
+    line-height: 2;
+}

@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.buttons-select-subscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-self: center;
+}
+
+.but-select-coffee {
+  font-weight: bold;
+  text-align: center;
+}
+
+.main__header {
+  height: 551px;
+}
+
+.logo {
+  width: 249px;
+  height: 141px;
+  margin: 50px auto auto auto;
+}
+
+.title-slogan {
+  width: 895px;
+  height: 110px;
+  margin: 75px auto auto auto;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+.slogan {
+  font-family: "PT Sans Narrow";
+  font-size: 20px;
+  margin-top: 17px;
+}
+
+.buttons-select-subscribe {
+  width: 573px;
+  height: 65px;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.but-select-coffee {
+  text-align: center;
+  font-size: 24px;
+  font-family: "PT Sans", sans-serif;
+  color: #edd975;
+  border: 2px solid #edd975;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 260px;
+  height: 100%;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+
+.but-select-coffee:active, .but-select-coffee:focus {
+  outline: none;
+}
+
+.but-select-coffee:hover {
+  color: white;
+  border: none;
+  background-image: -moz-linear-gradient(90deg, #45982d 0%, #56c137 100%);
+  background-image: -webkit-linear-gradient(90deg, #45982d 0%, #56c137 100%);
+  background-image: -ms-linear-gradient(90deg, #45982d 0%, #56c137 100%);
+}
+
+.but-subscribe {
+  border-style: dotted;
+}

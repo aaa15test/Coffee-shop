@@ -1,0 +1,31 @@
+@import "style_scss";
+@import "order/order";
+
+.basket {
+    @extend %just-cont-flex-end;
+
+    width: 230px;
+    height: 28px;
+
+    margin-top: 12px;
+}
+
+.fa-shopping-cart:before {
+    color: #fff;
+    font-size: 22px;
+
+    z-index: 250;
+}  
+
+.order-text {
+    @include font-size-text-align-left(16px);
+    font-family: $font-pt-sans-narrow;
+    color: rgb(255, 255, 255);
+    /*height: 12px;*/
+}
+
+.basket-empty {
+    display: flex;
+
+    margin-left: 15px;
+}

@@ -1,0 +1,25 @@
+@import "style_scss";
+@import "phone/phone";
+@import "popup/popup";
+@import "basket/basket";
+
+.main__top-menu {
+    height: 48px;
+
+    background-color: rgba(255, 255, 255, 0.3);
+
+    z-index: 240;  
+}
+
+.center-justification {   
+    margin: auto;
+
+    max-width: 1150px;
+    height: 100%;
+}
+
+.top-menu_content {
+    @extend %just-cont-space-betw;
+    @include width-height(100%, 100%);
+}
+

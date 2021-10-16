@@ -1,0 +1,61 @@
+@import "style_scss";
+@import "prepacking/prepacking";
+
+.prepacking-backet {
+    @extend %just-cont-space-betw;
+    @include width-height(100%, 35px);
+
+    margin-top: 15px;
+}
+  
+.cost {
+    @extend %align-item-center;
+
+    @include font-size-text-align-center(16px);
+    font-family: $font-pt-sans-caption;
+    color: rgb(45, 35, 26);
+    @extend %font-weig-bold-text-align-cent;
+}
+
+.backet-prepack {
+    @include border-width-style-color(2px, rgb(237, 217, 117));
+    @include border-radius(50px);
+    background-color: rgba(255, 255, 255, 1);
+
+    width: 140px;
+
+    cursor: pointer;
+    outline: none;
+}
+
+.backet-prepack:hover {
+    background-image: -moz-linear-gradient( 90deg, rgb(69,152,45) 0%, rgb(86,193,55) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(69,152,45) 0%, rgb(86,193,55) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(69,152,45) 0%, rgb(86,193,55) 100%);
+
+    border: none;
+
+    color: rgb(255, 255, 255);
+} 
+
+.backet-prepack:active {
+    outline: none;
+    border: none;
+}
+
+.to-backet {
+    height: 33px;
+    @include font-size-text-align-center(16px);
+    font-family: $font-pt-sans;
+    color: rgb(237, 217, 117);
+    @extend %font-weig-bold-text-align-cent;
+    line-height: 2;
+    border: none;
+    outline: none;
+}
+  
+.to-backet:hover {
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+}

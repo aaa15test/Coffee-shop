@@ -1,0 +1,30 @@
+@import "style_scss";
+
+.order {
+    @extend %just-cont-space-betw;
+
+    width: 100%;
+
+    display: none;
+}
+
+.circle {   
+    font-family: $font-pt-sans;
+    @include border-radius(50%);
+    background-color: rgb(50, 205, 50);
+    @include width-height(25px, 25px);
+
+    color: #fff;
+    @extend %font-weig-bold-text-align-cent;
+
+    margin-left: -5px;
+    line-height: 1.5;
+}
+
+.bill {
+    @include font-size-text-align-left(20px);
+    font-family: $font-pt-sans;
+    color: rgb(255, 255, 255);
+    @extend %font-weig-bold-text-align-left;
+    /*height: 14px;*/
+}

@@ -1,0 +1,42 @@
+@import "style_scss";
+@import "__header/popup-header";
+@import "__my-basket/popup_my-backet";
+
+.popup-checkbox, .popup {
+    display: none;
+}
+  
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    @include width-height(100%, 100%);
+    opacity: 0;
+}
+  
+.popup:before {
+    display: block;
+    content: ' ';
+    position: absolute;
+    z-index: 1;
+    @include width-height(100%, 100%);
+    right: 0;
+    background-color: #000;
+    opacity: .5;
+}
+
+.popup-center {
+    @include width-height(617px, 100%);
+    margin: auto;
+}
+  
+.popup-content {
+    //display: none;
+    @include width-height(720px, 100%);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+}

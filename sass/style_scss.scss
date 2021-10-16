@@ -1,0 +1,104 @@
+@import "compass/reset";
+@import "compass/utilities/general/hacks";
+
+$font-segoe: 'Segoe UI';
+$font-pt-sans: 'PT Sans', sans-serif;
+$font-pt-sans-narrow: 'PT Sans Narrow';
+$font-pt-sans-caption: 'PT Sans Caption', sans-serif;
+
+@mixin width-height($wid, $hei) {
+    width: $wid;
+    height: $hei;
+}
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+}
+
+@mixin border-width-style-color($size, $color){
+    border: $size solid $color;
+}
+
+@mixin font-size-text-align-center($value){
+    text-align: center;
+    font-size: $value;
+}
+
+@mixin font-size-text-align-left($value){
+    text-align: left;
+    font-size: $value;
+}
+
+@mixin font-size-font-weight-bold($value){
+    font-weight: bold;
+    font-size: $value;
+}
+
+
+%just-cont-space-betw {
+    display: flex;
+    justify-content: space-between; 
+}
+
+%just-cont-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+%just-cont-center {
+    display: flex;
+    justify-content: center;
+}
+
+%just-cont-space-around {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+%flex-direct-column {
+    display: flex;
+    flex-direction: column;
+}
+
+%align-item-center {
+    display: flex;
+    align-items: center;
+}
+
+%align-self-center {
+    display: flex;
+    align-self: center;
+}
+
+%align-self-flex-end {
+    display: flex;
+    align-self: flex-end;
+}
+
+%align-cont-flex-end {
+    display: flex;
+    align-content: flex-end;
+}
+
+%flex-direct-column {
+    display: flex;
+    flex-direction: column;
+}
+
+%flex-direct-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+%font-weig-bold-text-align-cent {
+    font-weight: bold;
+    text-align: center;
+}
+
+%font-weig-bold-text-align-left {
+    font-weight: bold;
+    text-align: left;
+}
